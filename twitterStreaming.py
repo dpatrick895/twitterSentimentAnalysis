@@ -4,7 +4,7 @@ from tweepy.streaming import StreamListener
 import time
 import json
 import sqlite3
-import twitterTokens as tt
+import twitterTokens as tt #this module is not necessary however I have done this to obscure my key and tokens
 
 ckey = tt.getCkey()
 csecret = tt.getCsecret()
